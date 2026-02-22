@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to indienord</title>
+    <title>Välkommen till Kanel.com</title>
     <meta charset="UTF-8">
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #fdf5e6; }
-        h1 { color: #8b4513; border: 2px solid #8b4513; padding: 20px; border-radius: 10px; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            background: #fdf5e6; 
+            color: #5d2e0a;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+        h1 { 
+            color: #8b4513; 
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #d2691e;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.3);
+        }
+        .btn:hover {
+            background-color: #a0522d;
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
-    <h1>Här bakas det för fullt!</h1>
+    <div class="container">
+        <h1>Kanel.com är under bakning! 🥨</h1>
+        <p>Här kommer det snart hända grejer.</p>
+        <br>
+        <a href="/projektnamn" class="btn">Visa mitt projekt →</a>
+    </div>
 </body>
 </html>
